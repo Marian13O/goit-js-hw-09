@@ -13,7 +13,6 @@ startBtn.addEventListener('click', () => {
     body.style.backgroundColor = getRandomHexColor();
   }, 1000);
 });
-
 stopBtn.addEventListener('click', () => {
   startBtn.removeAttribute('disabled');
   stopBtn.setAttribute('disabled', '');
